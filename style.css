@@ -12,18 +12,17 @@ body {
 }
  @font-face {
 	font-family:'Pokemon';
-	src: url('font/pokemon/Pokemon Solid.ttf') format('truetype');
+	src: url('font/pokemon/Pokemon hollow.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
  }
 
-.titulo {
-	text-align: center;	
-	font-size: 60px;
-}
 h1 {
 	text-align: center;
-	font-size: 54px;
+	font-family: pokemon;
+	font-size: 70px;
+	color:yellow ;
+	text-shadow: gray 0.08em 0.07em 0.15em
 	
 }
 
@@ -57,7 +56,7 @@ h1 {
 .card::after {
 	content: "";
   display: block;
-  width: 50%;
+  width: 45%;
   height: 45%;
   border-radius: 100%;
   background-color: #fff;
@@ -68,31 +67,40 @@ h1 {
 }
 
 .steel {
-	background-color: #f4f4f4;
+	background-color: Silver;
+}
+
+.ghost{
+	background-color: SlateBlue;
 }
 
 .fire {
-	background-color: #FDDFDF;
+	background-color: lightcoral;
 }
 
 .grass {
-	background-color: #DEFDE0;
+	background-color: lightgreen;
 }
 
 .electric {
-	background-color: #FCF7DE;
+	background-color: yellow;
 }
 
-.water, .ice {
+.water {
+	background-color: DeepSkyBlue;
+}
+
+.ice {
+	
 	background-color: #DEF3FD;
 }
 
 .ground {
-	background-color: #f4e7da;
+	background-color: #B8860B;
 }
 
 .rock {
-	background-color: #d5d5d4;
+	background-color: #D2B48C;
 }
 
 .fairy {
@@ -100,7 +108,7 @@ h1 {
 }
 
 .poison {
-	background-color: #98d7a5;
+	background-color: DarkOrchid;
 }
 
 .bug {
@@ -112,15 +120,19 @@ h1 {
 }
 
 .psychic {
-	background-color: #eaeda1;
+	background-color: violet;
+}
+
+.dark {
+	background-color: SlateGray;
 }
 
 .flying {
-	background-color: #F5F5F5;
+	background-color: SkyBlue;
 }
 
 .fighting {
-	background-color: #E6E0D4;
+	background-color: FireBrick;
 }
 
 .normal {
